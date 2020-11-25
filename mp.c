@@ -40,7 +40,7 @@ int main(void){
 
 	clock_t end = clock();
 	
-	printf("Time : %lums\n", timediff(start, end));
+	printf("시간 : %lums\n", timediff(start, end));
 
 	return 0;
 }
